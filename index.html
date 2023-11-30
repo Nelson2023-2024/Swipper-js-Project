@@ -88,7 +88,35 @@
 
    <!--==================== LOGIN ====================-->
    <div class="login grid" id="login-content">
+      <form action="" class="login__form grid">
+         <h3 class="login__title">Log In</h3>
 
+         <div class="login__group grid">
+            <div class="">
+               <label for="login-email" class="login__label">Email</label>
+               <input type="email" placeholder="Write your Email" class="login__input" id="login-email">
+            </div>
+
+            <div class="">
+               <label for="login-pass" class="login__label">Password</label>
+               <input type="password" placeholder="Enter your password" class="login__input" id="login-pass">
+            </div>
+         </div>
+
+         <div class="">
+            <span class="login__signup">
+               You do not have an account <a href="#">Sign Up</a>
+            </span>
+
+            <a href="" class="login__forgot">
+               You forgot your password
+            </a>
+
+            <button type="submit" href="" class="login__button button">Log In</button>
+         </div>
+      </form>
+
+      <i class="ri-close-fill login__close" id="login-close"></i>
    </div>
 
    <!--==================== MAIN ====================-->

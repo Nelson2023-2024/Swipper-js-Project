@@ -144,6 +144,7 @@ img {
   width: 100%;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
+ 
   transition: box-shadow .4s background-color .4s;
 }
 
@@ -152,7 +153,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 10px 10px 8px black;
+
 }
 .nav__logo{
   display: inline-flex;
@@ -410,6 +411,25 @@ img {
   box-shadow: 0 4px 32px rgb(87, 87, 158);
 }
 /*=============== SERVICES ===============*/
+.services__container{
+  gap: 3rem;
+}
+
+.services__card{
+  text-align: center;
+}
+
+.services__card i{
+  display: block;
+  font-size: 3rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+.services__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .5rem;
+}
+
 
 
 /*=============== FEATURED ===============*/

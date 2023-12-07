@@ -514,6 +514,41 @@ img {
 
 
 /*=============== DISCOUNT ===============*/
+.discount__container{
+  gap: 3.5rem;
+}
+.discount__data{
+  text-align: center;
+}
+
+.discount__title{
+  margin-bottom: 1rem;
+}
+
+.discount__description{
+  margin-bottom: 2rem;
+}
+
+.discount__images{
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+}
+
+.dicount__img-1,
+.dicount__img-2{
+  width: 170px;
+}
+
+.dicount__img-1{
+  transform: translateX(.5rem) rotate(-10deg) ;
+}
+.dicount__img-2{
+  transform: translateX(-.5rem) rotate(10deg) ;
+}
+
+
 
 
 /*=============== NEW ===============*/

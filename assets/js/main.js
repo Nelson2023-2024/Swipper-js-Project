@@ -94,6 +94,22 @@ let swiperFeatured = new Swiper('.featured__swipper', {
   });
 /*=============== NEW SWIPER ===============*/
 
+let swiperNew = new Swiper('.new__swiper', {
+    loop: true,
+    spaceBetween: 16,
+    slidesPerView:'auto',
+
+
+    autoplay:{
+        delay:5000,
+        disableOnInteraction:false,
+    },
+    breakpoints:{
+        1150:{
+            slidesPerView:3,
+        }
+    }
+  });
 
 /*=============== TESTIMONIAL SWIPER ===============*/
 

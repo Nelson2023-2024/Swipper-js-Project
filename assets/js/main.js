@@ -111,6 +111,23 @@ let swiperNew = new Swiper('.new__swiper', {
     }
   });
 
+  let swiperNew2 = new Swiper('.new__swiper-2', {
+    loop: true,
+    spaceBetween: 16,
+    slidesPerView:'auto',
+
+
+    autoplay:{
+        delay:7000,
+        disableOnInteraction:false,
+    },
+    breakpoints:{
+        1150:{
+            slidesPerView:3,
+        }
+    }
+  });
+
 /*=============== TESTIMONIAL SWIPER ===============*/
 
 

@@ -131,6 +131,25 @@ let swiperNew = new Swiper('.new__swiper', {
 /*=============== TESTIMONIAL SWIPER ===============*/
 
 
+  let swiperTestimonials = new Swiper('.testimonial__swiper', {
+    loop: true,
+    spaceBetween: 16,
+    grabCursor:true,
+    slidesPerView:'auto',
+    centeredSlides:'auto',
+
+    autoplay:{
+        delay:4000,
+        disableOnInteraction:false,
+    },
+    breakpoints:{
+        1150:{
+            slidesPerView:3,
+            centeredSlides:false
+        }
+    }
+  });
+
 /*=============== SHOW SCROLL UP ===============*/ 
 
 

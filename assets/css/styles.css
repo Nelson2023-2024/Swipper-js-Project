@@ -598,7 +598,7 @@ img {
   margin-bottom: 2rrem;
 }
 /*=============== JOIN ===============*/
-.join{
+.join__container{
   position: relative;
   padding-block: 3rem;
 }
@@ -639,11 +639,103 @@ img {
   padding-block:1.25rem ;
   cursor: pointer;
 }
+
 /*=============== TESTIMONIAL ===============*/
+.testimonial__card{
+  text-align: center;
+  background-color: var(--container-color);
+  padding: 2rem 3rem 2.5rem;
+  border: 2px solid var(--border-color);
+  transition: border .4s, background-color .4s;
+}
 
+.testimonial__img{
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+}
 
+.testimonial__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .75rem;
+}
+
+.testimonial__description{
+  font-size: var(--small-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.testimonial__stars{
+  color: var(--first-color);
+}
 /*=============== FOOTER ===============*/
+.footer{
+  padding-block: 4rem 6rem;
+  width: 100%;
+}
+.footer__container{
+  gap: 3rem;
+  width: 50%;
+  margin: auto;
+}
 
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--first-color);
+  font-size: var(--h3-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 1.25rem;
+}
+
+.footer__logo i{
+  font-size: 1.25rem;
+}
+.footer__data{
+  grid-template-columns: repeat(2, max-content);
+  gap: 3rem 2rem;
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.footer__links{
+  display: grid;
+  gap: .5rem;
+}
+
+.footer__link{
+  color: var(--text-color);
+  transform: color .4s;
+}
+
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__info{
+  font-style: normal;
+}
+
+.footer__social{
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer__social-link{
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.footer__copy{
+  display: block;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
 
 /*=============== SCROLL BAR ===============*/
 

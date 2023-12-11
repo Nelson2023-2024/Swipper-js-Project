@@ -151,7 +151,12 @@ let swiperNew = new Swiper('.new__swiper', {
   });
 
 /*=============== SHOW SCROLL UP ===============*/ 
-
+const scrollUp = () =>{
+    const scrollUp = document.getElementById('scroll-up')
+    window.scrollY >= 350 ? scrollUp.classList.add('scroll-show')
+                        :scrollUp.classList.remove('scroll-show')
+}
+window.addEventListener('scroll', scrollUp)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
